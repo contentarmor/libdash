@@ -1,0 +1,8 @@
+The Package #<PKG_NAME>#
+----------------------------
+
+libdash is the official reference software of the ISO/IEC MPEG-DASH standard and is an open-source library that provides an object orient (OO) interface to the MPEG-DASH standard, developed by Bitmovin (http://www.bitmovin.com).
+
+The #<PKG_NAME># package install the libdash shared library generated from https://github.com/contentarmor/libdash without any modification from ContentArmor SAS.
+
+ -- ContentArmor SAS <support@contentarmor.net>
