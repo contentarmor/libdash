@@ -17,7 +17,7 @@ add_custom_target(build_deb
     COMMAND ./create_deb_delivery.sh
 )
 
-set(CMAKE_INSTALL_PREFIX "/cafvm")
+set(CMAKE_INSTALL_PREFIX "/usr")
 
 install(TARGETS dash 
    LIBRARY DESTINATION lib
@@ -31,7 +31,7 @@ set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "libdash shared library built by ContentAr
 set(CPACK_PACKAGE_RELEASE 1)
 set(CPACK_PACKAGE_CONTACT "ContentArmor SAS <support@contentarmor.net>")
 set(CPACK_PACKAGE_VENDOR "ContentArmor SAS <support@contentarmor.net>")
-set(CPACK_PACKAGING_INSTALL_PREFIX "/cafvm")
+set(CPACK_PACKAGING_INSTALL_PREFIX "/usr")
 set(CPACK_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-${CPACK_PACKAGE_VERSION}-${CPACK_PACKAGE_RELEASE}.${CMAKE_SYSTEM_PROCESSOR}")
 set(CPACK_STRIP_FILES 1)
 
