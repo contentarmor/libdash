@@ -5,7 +5,7 @@ DEBFULLNAME="ContentArmor SAS"
 DEBEMAIL="support@contentarmor.net"
 DEBURL="http://www.contentarmor.net"
 PKG_NAME="libdash3.0-ca"
-PKG_VERS="1.0.2"
+PKG_VERS="1.0.3"
 CONTENT_ARMOR_HOME="/usr"
 LIBDASH_BUILD_LIB="."
 OUT_DEBS_DIR="./debs"
@@ -62,7 +62,7 @@ fi
 
 clean_all
 
-dh_make --native --library -y -p ${PKG_NAME}_${PKG_VERS} --copyright=blank
+dh_make --native --library -y -p ${PKG_NAME}_${PKG_VERS}
 ASSERT_OK ${LINENO}
 
 cd debian
