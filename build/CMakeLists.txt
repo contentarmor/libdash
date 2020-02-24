@@ -19,12 +19,12 @@ add_custom_target(build_deb
 
 set(CMAKE_INSTALL_PREFIX "/usr")
 
-install(TARGETS dash 
+install(TARGETS dash
    LIBRARY DESTINATION lib
    RESOURCE DESTINATION doc/libdash
    COMPONENT libraries)
 
-set(CPACK_PACKAGE_VERSION "1.0.0")
+set(CPACK_PACKAGE_VERSION "1.0.5")
 set(CPACK_GENERATOR "RPM")
 set(CPACK_PACKAGE_NAME "libdash3.0-ca")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "libdash shared library built by ContentArmor SAS")
