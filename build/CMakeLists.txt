@@ -24,7 +24,7 @@ install(TARGETS dash
    RESOURCE DESTINATION doc/libdash
    COMPONENT libraries)
 
-set(CPACK_PACKAGE_VERSION "1.0.5")
+set(CPACK_PACKAGE_VERSION "1.0.6")
 set(CPACK_GENERATOR "RPM")
 set(CPACK_PACKAGE_NAME "libdash3.0-ca")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "libdash shared library built by ContentArmor SAS")
