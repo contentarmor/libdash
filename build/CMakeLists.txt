@@ -20,7 +20,7 @@ add_custom_target(build_deb
 set(CMAKE_INSTALL_PREFIX "/usr")
 
 install(TARGETS dash
-   LIBRARY DESTINATION lib
+   LIBRARY DESTINATION lib64
    RESOURCE DESTINATION doc/libdash
    COMPONENT libraries)
 
